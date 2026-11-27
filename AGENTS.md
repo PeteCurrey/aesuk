@@ -7,3 +7,6 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+- Keep `build:dev` aligned with the Next.js production build because the publishing pipeline invokes that script.
+- Declare generated Cloud client environment fields in `src/env.d.ts` and install its SDK dependency; never modify generated integration files to resolve type errors.
