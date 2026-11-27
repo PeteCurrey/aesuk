@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Contact Us | Book a Mobile Auto Electrician",
   description:
     "Contact AES Autoelectrical in Chesterfield for mobile diagnostics, replacement car keys, Ghost 2 immobiliser fitting, and ECU remapping. Call 07753 891461.",
-  alternates: { canonical: "https://aesuk.com/contact" },
+  alternates: { canonical: "https://aesuk.co/contact" },
 };
 
 export default function ContactPage() {

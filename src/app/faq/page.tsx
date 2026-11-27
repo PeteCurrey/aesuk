@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Frequently Asked Questions",
   description:
     "Answers to common questions about mobile auto electrical repairs, car key replacement, Ghost 2 immobilisers, and ECU remapping in Chesterfield & Derbyshire.",
-  alternates: { canonical: "https://aesuk.com/faq" },
+  alternates: { canonical: "https://aesuk.co/faq" },
 };
 
 const allFaqs: FAQItem[] = [

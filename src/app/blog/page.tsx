@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Auto Electrical Guides & Articles",
   description:
     "Technical guides, diagnostic insights, and vehicle security advice from AES Autoelectrical in Chesterfield & Derbyshire.",
-  alternates: { canonical: "https://aesuk.com/blog" },
+  alternates: { canonical: "https://aesuk.co/blog" },
 };
 
 export default function BlogIndexPage() {

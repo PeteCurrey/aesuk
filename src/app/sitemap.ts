@@ -4,7 +4,7 @@ import { manufacturerKeyPages } from "@/data/manufacturerKeys";
 import { blogPosts } from "@/data/blogPosts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://aesuk.comm";
+  const baseUrl = "https://aesuk.co";
   const now = new Date("2026-11-25");
 
   const staticRoutes = [

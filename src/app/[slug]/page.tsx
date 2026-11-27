@@ -26,11 +26,11 @@ export async function generateMetadata({
     return {
       title: serviceData.pageTitle,
       description: serviceData.metaDescription,
-      alternates: { canonical: `https://aesuk.com/${canonicalSlug}` },
+      alternates: { canonical: `https://aesuk.co/${canonicalSlug}` },
       openGraph: {
         title: serviceData.pageTitle,
         description: serviceData.metaDescription,
-        url: `https://aesuk.com/${canonicalSlug}`,
+        url: `https://aesuk.co/${canonicalSlug}`,
         siteName: "AES Autoelectrical",
         locale: "en_GB",
         type: "website",
@@ -44,11 +44,11 @@ export async function generateMetadata({
     return {
       title,
       description: mfgData.metaDescription,
-      alternates: { canonical: `https://aesuk.com/${slug}` },
+      alternates: { canonical: `https://aesuk.co/${slug}` },
       openGraph: {
         title,
         description: mfgData.metaDescription,
-        url: `https://aesuk.com/${slug}`,
+        url: `https://aesuk.co/${slug}`,
         siteName: "AES Autoelectrical",
         locale: "en_GB",
         type: "website",

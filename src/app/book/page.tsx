@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Book a Mobile Auto Electrician",
   description:
     "Book a mobile auto electrician in Chesterfield, Sheffield, or Derbyshire. Same-day key replacement, diagnostics, Ghost 2 immobiliser fitting, and ECU remapping.",
-  alternates: { canonical: "https://aesuk.com/book" },
+  alternates: { canonical: "https://aesuk.co/book" },
 };
 
 export default function BookPage() {

@@ -22,7 +22,7 @@ export default function ManufacturerKeyTemplate({
   data: ManufacturerKeyData;
 }) {
   const { manufacturer, slug, models, keyTypes, commonIssues, faqs, description, metaDescription } = data;
-  const pageUrl = `https://aesuk.comm/${slug}`;
+  const pageUrl = `https://aesuk.co/${slug}`;
 
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -35,7 +35,7 @@ export default function ManufacturerKeyTemplate({
       name: "AES Autoelectrical",
       telephone: "+44-7753-891461",
       email: "info@aesuk.co",
-      url: "https://aesuk.comm",
+      url: "https://aesuk.co",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Chesterfield",
@@ -54,13 +54,13 @@ export default function ManufacturerKeyTemplate({
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://aesuk.comm",
+        item: "https://aesuk.co",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Replacement Car Keys",
-        item: "https://aesuk.comm/replacement-car-keys-chesterfield",
+        item: "https://aesuk.co/replacement-car-keys-chesterfield",
       },
       {
         "@type": "ListItem",

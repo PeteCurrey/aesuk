@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "Auto Electrical Services Chesterfield",
   description:
     "Full range of mobile auto electrical services in Chesterfield & Derbyshire: dealer diagnostics, car key replacement, Ghost 2 immobilisers, ECU remapping, and fleet electrics.",
-  alternates: { canonical: "https://aesuk.com/services" },
+  alternates: { canonical: "https://aesuk.co/services" },
 };
 
 const serviceGroups = [

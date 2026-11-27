@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/auth", "/dashboard", "/avorria-admin"],
     },
-    sitemap: "https://aesuk.comm/sitemap.xml",
+    sitemap: "https://aesuk.co/sitemap.xml",
   };
 }

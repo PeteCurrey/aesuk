@@ -23,11 +23,11 @@ export async function generateMetadata({
   return {
     title: post.title,
     description: post.excerpt,
-    alternates: { canonical: `https://aesuk.com/blog/${post.slug}` },
+    alternates: { canonical: `https://aesuk.co/blog/${post.slug}` },
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://aesuk.com/blog/${post.slug}`,
+      url: `https://aesuk.co/blog/${post.slug}`,
       type: "article",
       publishedTime: post.publishedAt,
     },
@@ -56,7 +56,7 @@ export default async function BlogPostPage({
     publisher: {
       "@type": "Organization",
       name: "AES Autoelectrical",
-      url: "https://aesuk.com",
+      url: "https://aesuk.co",
     },
   };
 

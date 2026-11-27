@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Pricing Guide | Transparent Auto Electrical & Key Rates",
   description:
     "Clear, upfront pricing for mobile diagnostics, replacement car keys, Ghost 2 immobiliser fitting, and ECU remapping in Chesterfield & Derbyshire.",
-  alternates: { canonical: "https://aesuk.com/pricing" },
+  alternates: { canonical: "https://aesuk.co/pricing" },
 };
 
 const pricingItems = [

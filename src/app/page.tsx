@@ -10,7 +10,7 @@ import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://aesuk.comm" },
+  alternates: { canonical: "https://aesuk.co" },
 };
 
 export default function Home() {

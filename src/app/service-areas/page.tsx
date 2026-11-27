@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Service Areas | Mobile Auto Electrician Derbyshire & South Yorkshire",
   description:
     "Mobile auto electrical, diagnostics, and car key replacement across Chesterfield, Sheffield, Dronfield, Matlock, Bolsover, Staveley, Clay Cross, Bakewell, Buxton & Alfreton.",
-  alternates: { canonical: "https://aesuk.com/service-areas" },
+  alternates: { canonical: "https://aesuk.co/service-areas" },
 };
 
 const towns = [

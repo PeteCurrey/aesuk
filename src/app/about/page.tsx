@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "About Us | Mobile Auto Electrician Chesterfield",
   description:
     "Learn about AES Autoelectrical — specialist mobile auto electricians serving Chesterfield, Sheffield, and Derbyshire with dealer-level diagnostics, key programming, and Ghost 2 security.",
-  alternates: { canonical: "https://aesuk.com/about" },
+  alternates: { canonical: "https://aesuk.co/about" },
 };
 
 export default function AboutPage() {

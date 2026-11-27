@@ -16,7 +16,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aesuk.comm"),
+  metadataBase: new URL("https://aesuk.co"),
   title: {
     default: "AES Autoelectrical | Mobile Auto Electrician Chesterfield & Derbyshire",
     template: "%s | AES Autoelectrical",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: "AES Autoelectrical | Mobile Auto Electrician Chesterfield",
     description:
       "Specialist mobile diagnostics, auto electrical repairs, remapping, and security installations across Chesterfield & Derbyshire.",
-    url: "https://aesuk.comm",
+    url: "https://aesuk.co",
     siteName: "AES Autoelectrical",
     locale: "en_GB",
     type: "website",
@@ -84,8 +84,8 @@ export default function RootLayout({
     name: "AES Autoelectrical",
     description:
       "Mobile auto electrician in Chesterfield. Dealer diagnostics, electrical repairs, ECU remapping, Ghost 2 immobiliser fitting, and mobile keys across Derbyshire.",
-    url: "https://aesuk.comm",
-    image: "https://aesuk.comm/assets/aes-hero-new.png",
+    url: "https://aesuk.co",
+    image: "https://aesuk.co/assets/aes-hero-new.png",
     telephone: "+44-7753-891461",
     email: "info@aesuk.co",
     priceRange: "££",

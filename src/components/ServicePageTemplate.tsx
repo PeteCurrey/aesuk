@@ -29,7 +29,7 @@ export interface ServicePageData {
 }
 
 export default function ServicePageTemplate({ data }: { data: ServicePageData }) {
-  const pageUrl = `https://aesuk.comm/${data.slug}`;
+  const pageUrl = `https://aesuk.co/${data.slug}`;
 
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -42,7 +42,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
       name: "AES Autoelectrical",
       telephone: "+44-7753-891461",
       email: "info@aesuk.co",
-      url: "https://aesuk.comm",
+      url: "https://aesuk.co",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Chesterfield",
@@ -68,13 +68,13 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://aesuk.comm",
+        item: "https://aesuk.co",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Services",
-        item: "https://aesuk.comm/services",
+        item: "https://aesuk.co/services",
       },
       {
         "@type": "ListItem",
